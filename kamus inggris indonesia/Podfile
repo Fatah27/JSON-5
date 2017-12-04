@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'kamus inggris indonesia' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for kamus inggris indonesia
+pod ‘Alamofire’
+pod ’SwiftyJSON’
+
+  target 'kamus inggris indonesiaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'kamus inggris indonesiaUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

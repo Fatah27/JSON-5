@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11C6443CF0A3DA4EFF29452A /* Pods_kamus_inggris_indonesiaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB3FDEAEF72493AAAF9D831 /* Pods_kamus_inggris_indonesiaTests.framework */; };
+		202A56D42F59AB194A0D9B37 /* Pods_kamus_inggris_indonesia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E280FFD35A0767452973870 /* Pods_kamus_inggris_indonesia.framework */; };
+		3931407C1FB48DE60066DB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931407B1FB48DE60066DB67 /* AppDelegate.swift */; };
+		3931407E1FB48DE60066DB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931407D1FB48DE60066DB67 /* ViewController.swift */; };
+		393140811FB48DE60066DB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3931407F1FB48DE60066DB67 /* Main.storyboard */; };
+		393140831FB48DE60066DB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 393140821FB48DE60066DB67 /* Assets.xcassets */; };
+		393140861FB48DE60066DB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 393140841FB48DE60066DB67 /* LaunchScreen.storyboard */; };
+		393140911FB48DE60066DB67 /* kamus_inggris_indonesiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393140901FB48DE60066DB67 /* kamus_inggris_indonesiaTests.swift */; };
+		3931409C1FB48DE60066DB67 /* kamus_inggris_indonesiaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3931409B1FB48DE60066DB67 /* kamus_inggris_indonesiaUITests.swift */; };
+		393140AA1FB496C50066DB67 /* kamusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393140A91FB496C50066DB67 /* kamusTableViewCell.swift */; };
+		393140AC1FB496DE0066DB67 /* kamusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393140AB1FB496DE0066DB67 /* kamusModel.swift */; };
+		393140AE1FB498700066DB67 /* kamusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393140AD1FB498700066DB67 /* kamusTableViewController.swift */; };
+		F6CAD3BFEC6D134AA6789F07 /* Pods_kamus_inggris_indonesiaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBD6F9B12BAEE35C0C4DD66C /* Pods_kamus_inggris_indonesiaUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3931408D1FB48DE60066DB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 393140701FB48DE50066DB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 393140771FB48DE60066DB67;
+			remoteInfo = "kamus inggris indonesia";
+		};
+		393140981FB48DE60066DB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 393140701FB48DE50066DB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 393140771FB48DE60066DB67;
+			remoteInfo = "kamus inggris indonesia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30E086F79DEE5D00C89E3FB8 /* Pods-kamus inggris indonesia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kamus inggris indonesia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kamus inggris indonesia/Pods-kamus inggris indonesia.debug.xcconfig"; sourceTree = "<group>"; };
+		3326644409367FCC35E8665E /* Pods-kamus inggris indonesiaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kamus inggris indonesiaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kamus inggris indonesiaTests/Pods-kamus inggris indonesiaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		393140781FB48DE60066DB67 /* kamus inggris indonesia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kamus inggris indonesia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3931407B1FB48DE60066DB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3931407D1FB48DE60066DB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		393140801FB48DE60066DB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		393140821FB48DE60066DB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		393140851FB48DE60066DB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		393140871FB48DE60066DB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3931408C1FB48DE60066DB67 /* kamus inggris indonesiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kamus inggris indonesiaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		393140901FB48DE60066DB67 /* kamus_inggris_indonesiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamus_inggris_indonesiaTests.swift; sourceTree = "<group>"; };
+		393140921FB48DE60066DB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393140971FB48DE60066DB67 /* kamus inggris indonesiaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kamus inggris indonesiaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3931409B1FB48DE60066DB67 /* kamus_inggris_indonesiaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamus_inggris_indonesiaUITests.swift; sourceTree = "<group>"; };
+		3931409D1FB48DE60066DB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		393140A91FB496C50066DB67 /* kamusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamusTableViewCell.swift; sourceTree = "<group>"; };
+		393140AB1FB496DE0066DB67 /* kamusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamusModel.swift; sourceTree = "<group>"; };
+		393140AD1FB498700066DB67 /* kamusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kamusTableViewController.swift; sourceTree = "<group>"; usesTabs = 0; };
+		4E280FFD35A0767452973870 /* Pods_kamus_inggris_indonesia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kamus_inggris_indonesia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A38A0939331E150FDE1455 /* Pods-kamus inggris indonesiaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kamus inggris indonesiaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kamus inggris indonesiaUITests/Pods-kamus inggris indonesiaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0485FF1615D15EF3CD18C65 /* Pods-kamus inggris indonesia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kamus inggris indonesia.release.xcconfig"; path = "Pods/Target Support Files/Pods-kamus inggris indonesia/Pods-kamus inggris indonesia.release.xcconfig"; sourceTree = "<group>"; };
+		C37F7E9306ACE244BCF786FF /* Pods-kamus inggris indonesiaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kamus inggris indonesiaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kamus inggris indonesiaUITests/Pods-kamus inggris indonesiaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3BC9056B5165E455A578EF5 /* Pods-kamus inggris indonesiaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kamus inggris indonesiaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kamus inggris indonesiaTests/Pods-kamus inggris indonesiaTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEB3FDEAEF72493AAAF9D831 /* Pods_kamus_inggris_indonesiaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kamus_inggris_indonesiaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD6F9B12BAEE35C0C4DD66C /* Pods_kamus_inggris_indonesiaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kamus_inggris_indonesiaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		393140751FB48DE60066DB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				202A56D42F59AB194A0D9B37 /* Pods_kamus_inggris_indonesia.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393140891FB48DE60066DB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11C6443CF0A3DA4EFF29452A /* Pods_kamus_inggris_indonesiaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393140941FB48DE60066DB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CAD3BFEC6D134AA6789F07 /* Pods_kamus_inggris_indonesiaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11AAD3F27792CFDD2BC8435F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30E086F79DEE5D00C89E3FB8 /* Pods-kamus inggris indonesia.debug.xcconfig */,
+				B0485FF1615D15EF3CD18C65 /* Pods-kamus inggris indonesia.release.xcconfig */,
+				3326644409367FCC35E8665E /* Pods-kamus inggris indonesiaTests.debug.xcconfig */,
+				E3BC9056B5165E455A578EF5 /* Pods-kamus inggris indonesiaTests.release.xcconfig */,
+				73A38A0939331E150FDE1455 /* Pods-kamus inggris indonesiaUITests.debug.xcconfig */,
+				C37F7E9306ACE244BCF786FF /* Pods-kamus inggris indonesiaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3931406F1FB48DE50066DB67 = {
+			isa = PBXGroup;
+			children = (
+				3931407A1FB48DE60066DB67 /* kamus inggris indonesia */,
+				3931408F1FB48DE60066DB67 /* kamus inggris indonesiaTests */,
+				3931409A1FB48DE60066DB67 /* kamus inggris indonesiaUITests */,
+				393140791FB48DE60066DB67 /* Products */,
+				11AAD3F27792CFDD2BC8435F /* Pods */,
+				88A569121052D93C90409E57 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		393140791FB48DE60066DB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				393140781FB48DE60066DB67 /* kamus inggris indonesia.app */,
+				3931408C1FB48DE60066DB67 /* kamus inggris indonesiaTests.xctest */,
+				393140971FB48DE60066DB67 /* kamus inggris indonesiaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3931407A1FB48DE60066DB67 /* kamus inggris indonesia */ = {
+			isa = PBXGroup;
+			children = (
+				3931407B1FB48DE60066DB67 /* AppDelegate.swift */,
+				3931407D1FB48DE60066DB67 /* ViewController.swift */,
+				3931407F1FB48DE60066DB67 /* Main.storyboard */,
+				393140821FB48DE60066DB67 /* Assets.xcassets */,
+				393140841FB48DE60066DB67 /* LaunchScreen.storyboard */,
+				393140871FB48DE60066DB67 /* Info.plist */,
+				393140A91FB496C50066DB67 /* kamusTableViewCell.swift */,
+				393140AB1FB496DE0066DB67 /* kamusModel.swift */,
+				393140AD1FB498700066DB67 /* kamusTableViewController.swift */,
+			);
+			path = "kamus inggris indonesia";
+			sourceTree = "<group>";
+		};
+		3931408F1FB48DE60066DB67 /* kamus inggris indonesiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				393140901FB48DE60066DB67 /* kamus_inggris_indonesiaTests.swift */,
+				393140921FB48DE60066DB67 /* Info.plist */,
+			);
+			path = "kamus inggris indonesiaTests";
+			sourceTree = "<group>";
+		};
+		3931409A1FB48DE60066DB67 /* kamus inggris indonesiaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3931409B1FB48DE60066DB67 /* kamus_inggris_indonesiaUITests.swift */,
+				3931409D1FB48DE60066DB67 /* Info.plist */,
+			);
+			path = "kamus inggris indonesiaUITests";
+			sourceTree = "<group>";
+		};
+		88A569121052D93C90409E57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E280FFD35A0767452973870 /* Pods_kamus_inggris_indonesia.framework */,
+				EEB3FDEAEF72493AAAF9D831 /* Pods_kamus_inggris_indonesiaTests.framework */,
+				FBD6F9B12BAEE35C0C4DD66C /* Pods_kamus_inggris_indonesiaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		393140771FB48DE60066DB67 /* kamus inggris indonesia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393140A01FB48DE60066DB67 /* Build configuration list for PBXNativeTarget "kamus inggris indonesia" */;
+			buildPhases = (
+				9259EC266E1D696028808F6B /* [CP] Check Pods Manifest.lock */,
+				393140741FB48DE60066DB67 /* Sources */,
+				393140751FB48DE60066DB67 /* Frameworks */,
+				393140761FB48DE60066DB67 /* Resources */,
+				D9ACE993FDC6134D1661C050 /* [CP] Embed Pods Frameworks */,
+				721862256D6A11F4F9AEBC2D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kamus inggris indonesia";
+			productName = "kamus inggris indonesia";
+			productReference = 393140781FB48DE60066DB67 /* kamus inggris indonesia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3931408B1FB48DE60066DB67 /* kamus inggris indonesiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393140A31FB48DE60066DB67 /* Build configuration list for PBXNativeTarget "kamus inggris indonesiaTests" */;
+			buildPhases = (
+				99472E94547B0540C50C66A3 /* [CP] Check Pods Manifest.lock */,
+				393140881FB48DE60066DB67 /* Sources */,
+				393140891FB48DE60066DB67 /* Frameworks */,
+				3931408A1FB48DE60066DB67 /* Resources */,
+				1E4917ED9DCF65907EF51E98 /* [CP] Embed Pods Frameworks */,
+				1E4E93D862C2E2B464E6D943 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3931408E1FB48DE60066DB67 /* PBXTargetDependency */,
+			);
+			name = "kamus inggris indonesiaTests";
+			productName = "kamus inggris indonesiaTests";
+			productReference = 3931408C1FB48DE60066DB67 /* kamus inggris indonesiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		393140961FB48DE60066DB67 /* kamus inggris indonesiaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 393140A61FB48DE60066DB67 /* Build configuration list for PBXNativeTarget "kamus inggris indonesiaUITests" */;
+			buildPhases = (
+				86290BFF7DFD61374FA0A741 /* [CP] Check Pods Manifest.lock */,
+				393140931FB48DE60066DB67 /* Sources */,
+				393140941FB48DE60066DB67 /* Frameworks */,
+				393140951FB48DE60066DB67 /* Resources */,
+				0DB0146791AEE3CD752708C2 /* [CP] Embed Pods Frameworks */,
+				21474570EE65E7C744F12A03 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				393140991FB48DE60066DB67 /* PBXTargetDependency */,
+			);
+			name = "kamus inggris indonesiaUITests";
+			productName = "kamus inggris indonesiaUITests";
+			productReference = 393140971FB48DE60066DB67 /* kamus inggris indonesiaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		393140701FB48DE50066DB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = FatahKhair;
+				TargetAttributes = {
+					393140771FB48DE60066DB67 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					3931408B1FB48DE60066DB67 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 393140771FB48DE60066DB67;
+					};
+					393140961FB48DE60066DB67 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 393140771FB48DE60066DB67;
+					};
+				};
+			};
+			buildConfigurationList = 393140731FB48DE50066DB67 /* Build configuration list for PBXProject "kamus inggris indonesia" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3931406F1FB48DE50066DB67;
+			productRefGroup = 393140791FB48DE60066DB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				393140771FB48DE60066DB67 /* kamus inggris indonesia */,
+				3931408B1FB48DE60066DB67 /* kamus inggris indonesiaTests */,
+				393140961FB48DE60066DB67 /* kamus inggris indonesiaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		393140761FB48DE60066DB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393140861FB48DE60066DB67 /* LaunchScreen.storyboard in Resources */,
+				393140831FB48DE60066DB67 /* Assets.xcassets in Resources */,
+				393140811FB48DE60066DB67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3931408A1FB48DE60066DB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393140951FB48DE60066DB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB0146791AEE3CD752708C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kamus inggris indonesiaUITests/Pods-kamus inggris indonesiaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E4917ED9DCF65907EF51E98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kamus inggris indonesiaTests/Pods-kamus inggris indonesiaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1E4E93D862C2E2B464E6D943 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kamus inggris indonesiaTests/Pods-kamus inggris indonesiaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21474570EE65E7C744F12A03 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kamus inggris indonesiaUITests/Pods-kamus inggris indonesiaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721862256D6A11F4F9AEBC2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kamus inggris indonesia/Pods-kamus inggris indonesia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86290BFF7DFD61374FA0A741 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kamus inggris indonesiaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9259EC266E1D696028808F6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kamus inggris indonesia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99472E94547B0540C50C66A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kamus inggris indonesiaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9ACE993FDC6134D1661C050 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-kamus inggris indonesia/Pods-kamus inggris indonesia-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kamus inggris indonesia/Pods-kamus inggris indonesia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		393140741FB48DE60066DB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3931407E1FB48DE60066DB67 /* ViewController.swift in Sources */,
+				393140AC1FB496DE0066DB67 /* kamusModel.swift in Sources */,
+				3931407C1FB48DE60066DB67 /* AppDelegate.swift in Sources */,
+				393140AA1FB496C50066DB67 /* kamusTableViewCell.swift in Sources */,
+				393140AE1FB498700066DB67 /* kamusTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393140881FB48DE60066DB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393140911FB48DE60066DB67 /* kamus_inggris_indonesiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		393140931FB48DE60066DB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3931409C1FB48DE60066DB67 /* kamus_inggris_indonesiaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3931408E1FB48DE60066DB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 393140771FB48DE60066DB67 /* kamus inggris indonesia */;
+			targetProxy = 3931408D1FB48DE60066DB67 /* PBXContainerItemProxy */;
+		};
+		393140991FB48DE60066DB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 393140771FB48DE60066DB67 /* kamus inggris indonesia */;
+			targetProxy = 393140981FB48DE60066DB67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3931407F1FB48DE60066DB67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				393140801FB48DE60066DB67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		393140841FB48DE60066DB67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				393140851FB48DE60066DB67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3931409E1FB48DE60066DB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3931409F1FB48DE60066DB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		393140A11FB48DE60066DB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E086F79DEE5D00C89E3FB8 /* Pods-kamus inggris indonesia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "kamus inggris indonesia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatahkhair.kamus-inggris-indonesia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		393140A21FB48DE60066DB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0485FF1615D15EF3CD18C65 /* Pods-kamus inggris indonesia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "kamus inggris indonesia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatahkhair.kamus-inggris-indonesia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		393140A41FB48DE60066DB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3326644409367FCC35E8665E /* Pods-kamus inggris indonesiaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "kamus inggris indonesiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatahkhair.kamus-inggris-indonesiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kamus inggris indonesia.app/kamus inggris indonesia";
+			};
+			name = Debug;
+		};
+		393140A51FB48DE60066DB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3BC9056B5165E455A578EF5 /* Pods-kamus inggris indonesiaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "kamus inggris indonesiaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatahkhair.kamus-inggris-indonesiaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kamus inggris indonesia.app/kamus inggris indonesia";
+			};
+			name = Release;
+		};
+		393140A71FB48DE60066DB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73A38A0939331E150FDE1455 /* Pods-kamus inggris indonesiaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "kamus inggris indonesiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatahkhair.kamus-inggris-indonesiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kamus inggris indonesia";
+			};
+			name = Debug;
+		};
+		393140A81FB48DE60066DB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37F7E9306ACE244BCF786FF /* Pods-kamus inggris indonesiaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "kamus inggris indonesiaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fatahkhair.kamus-inggris-indonesiaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "kamus inggris indonesia";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		393140731FB48DE50066DB67 /* Build configuration list for PBXProject "kamus inggris indonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3931409E1FB48DE60066DB67 /* Debug */,
+				3931409F1FB48DE60066DB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393140A01FB48DE60066DB67 /* Build configuration list for PBXNativeTarget "kamus inggris indonesia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393140A11FB48DE60066DB67 /* Debug */,
+				393140A21FB48DE60066DB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393140A31FB48DE60066DB67 /* Build configuration list for PBXNativeTarget "kamus inggris indonesiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393140A41FB48DE60066DB67 /* Debug */,
+				393140A51FB48DE60066DB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		393140A61FB48DE60066DB67 /* Build configuration list for PBXNativeTarget "kamus inggris indonesiaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				393140A71FB48DE60066DB67 /* Debug */,
+				393140A81FB48DE60066DB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 393140701FB48DE50066DB67 /* Project object */;
+}
